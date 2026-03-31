@@ -58,9 +58,7 @@ while opcao == 'S':
     #pergunta se quer jogar novamente ou encerrar o jogo 
     opcao = input ('Quer jogar novamente? [S/N]').upper().strip()
     if opcao == 'N':
-        print('-=*30')
         print('\nObrigado por jogar! Volte sempre.')
-        print('-=*30')
         break
     
 
